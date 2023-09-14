@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Person</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <H1 class="show">Here we edit the caption</H1>
+    <div class="container">
+        <p>Blog id: <%=blog.id%></p>
+        <br>
+        <p>Name:<%=blog.name%></p>
+        <br>
+        <div class="photo">
+            <img src="<%=blog.link%>" alt="">
+        </div>
+        <br>
+        <form method="post" action="/blogs/<%=blog.id%>?_method=PATCH">
+        <div class="caption">
+            <textarea name="caption"  cols="50" rows="10"><%=blog.caption%></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+    </div>
+
+</body>
+</html>

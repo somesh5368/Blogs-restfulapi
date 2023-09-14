@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.show{
+    margin-left: 521px;
+}
+.container{
+    background-color: aqua;
+    height: 431px;
+    width: 476px;
+    border: 2px solid black;
+    margin-left: 490px;
+    margin-top: 24px;
+   
+}
+.photo img{
+    width: 476px;
+    height: 353px;
+    background-size: cover;
+}
+.caption p{
+    display: flex;
+    font-size: 27px;
+    justify-content: center;
+    color: black;
+}
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.form{
+    margin-left: 45px;
+    margin-top: 60px;
+}
+label{
+    margin-right: 10px;
+}
+.name{
+    margin-left: 20px;
+}
+.caption{
+    margin-left: 10px;
+}
+.btn{
+    margin-left: 119px;
+    margin-top: 7px;
+}
